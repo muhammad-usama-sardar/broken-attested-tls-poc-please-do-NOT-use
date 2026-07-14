@@ -162,13 +162,12 @@ See Section 1.4 of [manual](https://bblanche.gitlabpages.inria.fr/proverif/manua
 
 The formal model uses the [fixed version of diversion attacks in intra-handshake attestation](https://github.com/CCC-Attestation/formal-spec-id-crisis/tree/main/TLS-a/fix) from our previous work as the starting point to focus on relay attacks in intra-handshake attestation in this work.
 The rationale is that we consider it more useful to show the added value of this contribution to the community by using the [fixed version of diversion attacks in intra-handshake attestation](https://github.com/CCC-Attestation/formal-spec-id-crisis/tree/main/TLS-a/fix) as the baseline, rather than showing the same diversion attacks from [ID-Crisis paper](https://dl.acm.org/doi/10.1145/3779208.3785387), and the discovered CVE (CVE-2026-33697) -- which the previous analysis could not find -- practically demonstrates the added value.
-This modeling choice makes it clear that even with the diversion attacks fixed, high-severity relay attacks would still remain in intra-handshake attestation.
 
 ## Artifacts organization
 <details>
 <summary>Click to expand folder details</summary>
 
-- Folder `binder6` containS code for binding mechanism #6.
+- Folder `binder6` contains code for binding mechanism #6.
 
 </details>
 
