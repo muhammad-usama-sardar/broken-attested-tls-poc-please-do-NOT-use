@@ -1,10 +1,13 @@
-# Hardware-Backed Attestation in TLS
+# Hardware-Backed Attestation in TLS (vulnerable to relay attacks)
 
 ## Welcome!
 
 This repository holds miscellaneous materials related to a proof-of-concept of the "Using
 Attestation in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS)" internet
 draft ([link](https://datatracker.ietf.org/doc/draft-fossati-tls-attestation/)).
+
+> [!NOTE]
+> Formal analysis has shown this to be vulnerable to relay attacks. Please do NOT use the proof-of-concept. See the folder `relay-attacks-formal` for artifacts.
 
 ## What's Here?
 
